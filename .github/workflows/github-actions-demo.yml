@@ -22,4 +22,7 @@ jobs:
       - name: List files in the repository
         run: |
           ls -la
-       
+        
+      - shell: pwsh
+        run:  Get-ChildItem
+         
